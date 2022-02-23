@@ -59,7 +59,7 @@ func Algoritm(brackets string) bool {
   
   counter := 0
   stack := Stack{}
-  map1 := map[string]string{
+  bracketsKey := map[string]string{
             ")": "(",
             "}": "{",
             "]": "[",
@@ -74,7 +74,7 @@ func Algoritm(brackets string) bool {
           
           if stack.Len() != 0 {
               
-              if map1[chareckter] != stack.Pop()  {
+              if bracketsKey[chareckter] != stack.Pop()  {
                   counter++
                   return false
               }
