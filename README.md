@@ -6,3 +6,4 @@
 
 - task-one: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/).
 - task-two: [Merge Intervals](https://leetcode.com/problems/merge-intervals/). 
+- task-three: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
