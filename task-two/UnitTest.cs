@@ -7,9 +7,8 @@ namespace UnitTest
     public class UnitTest
     {
         [TestMethod]
-        public void TestMethod()
+        public void Basic_array_with_intervals()
         {
-            //public int[][] SortAndMerge(int[][] intervals)
             int[][] intervals = new int[][]
             {
                 new int[] { 11, 12 },
@@ -19,6 +18,11 @@ namespace UnitTest
                 new int[] { 8, 10 },
                 new int[] { 6, 8 }
             };
+
+            Solution s = new Solution();
+            // act somehow
+            
+            // Assert.AreEqual()
         }
     }
 }
